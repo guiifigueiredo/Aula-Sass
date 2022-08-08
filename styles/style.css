@@ -1,0 +1,89 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  color: #383838;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav ul li a:hover {
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 2px solid #066163;
+}
+
+.header_banner {
+  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+  background-size: cover;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.header_banner .inner_banner--header {
+  padding: 3rem;
+  border-radius: 30px;
+  background-color: #CDBE78;
+  opacity: 0.8;
+}
+.header_banner .inner_banner--header h1 {
+  font-size: 3rem;
+  color: #383838;
+}
+.header_banner .inner_banner--header h2 {
+  font-size: 1.5rem;
+  color: #066163;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #066163;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+#servicos h4 {
+  font-size: 2rem;
+  color: #383838;
+  padding: 20px;
+  text-align: center;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card .card-img {
+  margin: 10px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #066163;
+}
+#servicos .cards .card .card-img img {
+  max-width: 100%;
+}
+#servicos .cards .card h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #066163;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  color: #383838;
+  line-height: 1.25rem;
+}/*# sourceMappingURL=style.css.map */
