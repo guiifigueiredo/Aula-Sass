@@ -47,9 +47,14 @@ nav ul li a:hover {
 #servicos {
   margin: 80px;
 }
-#servicos h3 {
-  font-size: 1.5rem;
+#servicos .servicos-titulo {
   text-align: center;
+}
+#servicos .servicos-titulo h3 {
+  display: inline-block;
+  border-bottom: 2px solid #066163;
+  text-align: center;
+  font-size: 1.5rem;
   color: #066163;
   text-transform: uppercase;
   font-weight: 300;
@@ -85,5 +90,90 @@ nav ul li a:hover {
 #servicos .cards .card p {
   font-size: 1rem;
   color: #383838;
+  line-height: 1.25rem;
+}
+
+#cupom {
+  background-color: #CDBE78;
+  text-align: center;
+  padding: 4rem;
+}
+#cupom .cupom-titulo {
+  color: #383838;
+}
+#cupom .cupom-titulo h2 {
+  margin: 2rem;
+  font-size: 1.7647058824rem;
+}
+
+.cupom-form {
+  margin: 0 auto;
+  width: 575px;
+}
+.cupom-form .cupom-input {
+  margin: 10px;
+  width: 540px;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid white;
+}
+.cupom-form .cupom-input input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  outline: none;
+  font-size: 1.2rem;
+}
+.cupom-form .cupom-input:hover, .cupom-form .cupom-input:focus-within {
+  box-shadow: 1px 1px 8px 1px #383838;
+  outline: none;
+}
+.cupom-form button {
+  width: 100px;
+  height: 30px;
+  outline: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-color: #383838;
+  border: 2px solid #383838;
+  border-radius: 20px;
+  font-size: 13px;
+  letter-spacing: 0.1rem;
+}
+.cupom-form button:hover {
+  cursor: pointer;
+  font-weight: bolder;
+  background-color: #066163;
+  border: 2px solid #066163;
+}
+
+footer {
+  text-align: center;
+  border-top: 2px solid #383838;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background: linear-gradient(to right, #383838, #CDBE78, #066163);
+}
+footer i {
+  color: #066163;
+}
+
+#curiosidades {
+  text-align: center;
+}
+#curiosidades h3 {
+  display: inline-block;
+  margin: 7px;
+  color: #066163;
+  font-size: 2rem;
+  border-bottom: 2px solid #383838;
+}
+#curiosidades h4, #curiosidades p {
+  color: #383838;
+  font-size: 1rem;
   line-height: 1.25rem;
 }/*# sourceMappingURL=style.css.map */

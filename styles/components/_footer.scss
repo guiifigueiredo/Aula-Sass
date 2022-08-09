@@ -1,0 +1,21 @@
+@import '../abstract/variaveis';
+
+@mixin gradient($lado, $cores...) {
+    @if $lado == 'right'{
+        background: linear-gradient(to right, $cores... );
+    } @else{
+        background: linear-gradient(to left, $cores... );
+    }
+}
+
+footer{
+    text-align: center;
+    border-top: 2px solid $cor-primaria;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: $tamanho-fonte /2;
+    @include gradient("right",$cor-primaria, $cor-terciaria, $cor-secundaria);  
+    i{
+        color: $cor-secundaria;
+    }
+}

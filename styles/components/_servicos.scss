@@ -2,12 +2,17 @@
 
 #servicos{
     margin: 80px;
-    h3{
-        font-size: $tamanho-fonte / 2;
+    .servicos-titulo{
         text-align: center;
-        color: $cor-secundaria;
-        text-transform: uppercase;
-        font-weight: 300;
+        h3{
+            display: inline-block;
+            border-bottom: 2px solid $cor-secundaria;
+            text-align: center;
+            font-size: $tamanho-fonte / 2;
+            color: $cor-secundaria;
+            text-transform: uppercase;
+            font-weight: 300;
+        }
     }
 
     h4{

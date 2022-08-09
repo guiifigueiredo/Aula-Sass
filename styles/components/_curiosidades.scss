@@ -1,0 +1,18 @@
+@import '../abstract/variaveis';
+
+#curiosidades{   
+    text-align: center;
+        h3{
+            display: inline-block;
+            margin: 7px;
+            color: $cor-secundaria;
+            font-size: $tamanho-fonte / 1.5;
+            border-bottom: 2px solid $cor-primaria;
+        }
+    
+        h4, p{
+            color: $cor-primaria;
+            font-size: $tamanho-fonte /3;
+            line-height: 1.25rem;
+        }
+    }
